@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bencana Banjir Rob — Kampanye Kesadaran</title>
+  <meta name="description" content="Informasi dan kampanye tentang bencana banjir rob: definisi, proses, dampak, dan sumber data." />
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --accent:#0ea5a4; --muted:#9aa4b2; --glass: rgba(255,255,255,0.03);
+      --maxw:900px;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      color: #e6eef6;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#071028 0%, var(--bg) 100%);line-height:1.6;-webkit-font-smoothing:antialiased}
+    header{background:linear-gradient(90deg, rgba(14,165,164,0.08), transparent);backdrop-filter: blur(6px);position:sticky;top:0;z-index:40;border-bottom:1px solid rgba(255,255,255,0.03)}
+    .container{max-width:var(--maxw);margin:0 auto;padding:28px;}
+    .nav{display:flex;gap:18px;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:44px;height:44px;border-radius:8px;background:linear-gradient(135deg,var(--accent), #0284c7);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;color:#072233}
+    nav a{color:var(--muted);text-decoration:none;font-weight:600}
+    nav a:hover{color:var(--accent)}
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;align-items:center;padding:28px 0}
+    .card{background:linear-gradient(180deg,var(--card), rgba(255,255,255,0.02));padding:22px;border-radius:12px;box-shadow: 0 6px 20px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.02)}
+    h1,h2{margin:0 0 12px 0;color:#fff}
+    p{color:var(--muted);margin:0 0 14px 0}
+    .hero .lead{font-size:18px;color:#d9f7f6}
+    .grid-2{display:grid;grid-template-columns:1fr 320px;gap:18px}
+    @media (max-width:880px){.grid-2{grid-template-columns:1fr}nav{display:none}header .container{padding:14px}}
+    .section{padding:18px 0}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--glass);color:var(--muted);font-weight:700;margin-bottom:12px}
+    ul.sources{padding-left:18px;margin:0;color:var(--muted)}
+    footer{padding:20px;border-top:1px solid rgba(255,255,255,0.03);text-align:center;color:var(--muted);font-size:13px}
+    .cta{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:#052022;text-decoration:none;font-weight:700}
+    .meta{font-size:13px;color:var(--muted);margin-top:8px}
+    .box-list{display:grid;gap:12px;margin-top:8px}
+    .small{font-size:13px;color:var(--muted)}
+    /* accordion */
+    .accordion{border-radius:8px;overflow:hidden}
+    .acc-item{border-bottom:1px solid rgba(255,255,255,0.02)}
+    .acc-header{display:flex;justify-content:space-between;align-items:center;padding:12px 14px;cursor:pointer;background:rgba(255,255,255,0.01)}
+    .acc-body{padding:12px 14px;display:none;color:var(--muted);font-size:14px}
+    .visible{display:block}
+    code{background:rgba(255,255,255,0.02);padding:2px 6px;border-radius:6px;font-size:13px;color:#dbeafe}
+    .sidenote{font-size:13px;color:var(--muted);padding:10px;border-radius:8px;background:rgba(255,255,255,0.01)}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">BR</div>
+        <div>
+          <div style="font-weight:800">BENCANA BANJIR ROB</div>
+          <div class="small">Produk Kampanye: Website</div>
+        </div>
+      </div>
+      <nav aria-label="Main navigation">
+        <a href="#definisi">Definisi</a>&nbsp;|&nbsp;
+        <a href="#proses">Proses</a>&nbsp;|&nbsp;
+        <a href="#dampak">Dampak</a>&nbsp;|&nbsp;
+        <a href="#sumber">Sumber</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero section">
+      <div class="grid-2">
+        <div class="card">
+          <span class="badge">Informasi Utama</span>
+          <h1>Banjir Rob: Kenali, Siaga, Bertindak</h1>
+          <p class="lead">Banjir rob adalah genangan air laut yang masuk ke daratan pada daerah pesisir ketika terjadi pasang tinggi. Fenomena ini semakin sering terjadi dan memengaruhi kehidupan masyarakat pesisir. Pelajari definisi, penyebab, dampak, dan langkah mitigasi di halaman ini.</p>
+          <p class="meta">Konten ini bersumber dari jurnal akademik dan laporan penelitian.</p>
+          <div style="margin-top:14px">
+            <a class="cta" href="#sumber">Lihat Sumber</a>
+            <span style="margin-left:12px;color:var(--muted)"> atau <a style="color:var(--accent);text-decoration:none" href="#dampak">Pelajari Dampak</a></span>
+          </div>
+        </div>
+
+        <aside class="card sidenote">
+          <strong>Apa yang bisa kamu lakukan?</strong>
+          <div class="box-list">
+            <div>• Ikut program penanaman mangrove di sekitar pantai.</div>
+            <div>• Pelajari rute evakuasi dan titik aman di daerahmu.</div>
+            <div>• Edukasi keluarga tentang pentingnya mengurangi ekstraksi air tanah.</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="definisi" class="section card">
+      <h2>Definisi</h2>
+      <p>Banjir rob adalah bencana yang terjadi ketika air laut naik melewati batas pantai dan menggenangi wilayah daratan, terutama daerah pesisir. Bencana ini sering disebut juga sebagai banjir pasang laut, karena penyebab utamanya adalah naiknya permukaan air laut akibat pasang tinggi. Selain faktor alam, aktivitas manusia seperti pengambilan air tanah berlebihan, berkurangnya hutan mangrove, serta pembangunan di wilayah pesisir tanpa perencanaan yang baik turut memperbesar risiko terjadinya banjir rob.</p>
+    </section>
+
+    <section id="proses" class="section card">
+      <h2>Proses Terjadinya</h2>
+      <p>Proses terjadinya banjir rob dimulai ketika air laut pasang tinggi, kemudian air tersebut melimpas ke wilayah yang lebih rendah di sekitar pantai. Pada banyak kasus, kondisi ini diperparah oleh penurunan muka tanah (subsidence) di daerah pesisir. Curah hujan yang tinggi juga dapat memperburuk keadaan karena air hujan dari daratan tidak bisa mengalir ke laut yang sedang pasang, sehingga genangan makin meluas. Daerah yang sering terdampak meliputi pantai utara Pulau Jawa (Pemalang, Brebes, Pekalongan, Semarang) serta beberapa wilayah lain seperti Bangkalan dan Puger.</p>
+    </section>
+
+    <section id="dampak" class="section card">
+      <h2>Dampak</h2>
+      <p>Dampak banjir rob umumnya bersifat negatif, termasuk terendamnya rumah warga, kerusakan infrastruktur, dan terganggunya aktivitas sosial-ekonomi. Lahan pertanian dan tambak sering mengalami kerusakan sehingga mengganggu mata pencaharian lokal. Dari sisi kesehatan, genangan yang bercampur dengan limbah dapat meningkatkan risiko penyakit kulit dan infeksi. Di sisi lain, bencana ini juga mendorong masyarakat untuk beradaptasi; langkah adaptasi seperti menaikkan fondasi rumah, membangun tanggul sederhana, dan menanam mangrove muncul sebagai respons lokal yang positif.</p>
+    </section>
+
+    <section id="sumber" class="section card">
+      <h2>Sumber Data</h2>
+      <div class="accordion" id="accordion">
+        <div class="acc-item">
+          <div class="acc-header" data-target="a1">
+            <div><strong>Rofi’i, A., & Ismail, A. (2022)</strong> — Strategi Adaptasi Masyarakat Pesisir Bangkalan</div>
+            <div style="color:var(--muted)">Klik</div>
+          </div>
+          <div class="acc-body" id="a1">
+            <p>Jurnal Kelautan, Universitas Trunojoyo Madura. <br>Link: https://journal.trunojoyo.ac.id/jurnalkelautan/article/view/873</p>
+          </div>
+        </div>
+        <div class="acc-item">
+          <div class="acc-header" data-target="a2">
+            <div><strong>Putra, R., & Nurdin, M. (2023)</strong> — Dampak Banjir Rob di Pemalang</div>
+            <div style="color:var(--muted)">Klik</div>
+          </div>
+          <div class="acc-body" id="a2">
+            <p>Jurnal Geo-Image, Universitas Negeri Semarang. <br>Link: https://journal.unnes.ac.id/journals/geoimage/article/view/26432</p>
+          </div>
+        </div>
+        <div class="acc-item">
+          <div class="acc-header" data-target="a3">
+            <div><strong>Hidayat, M., & Fadilah, S. (2021)</strong> — Karakteristik Banjir Rob di Brebes</div>
+            <div style="color:var(--muted)">Klik</div>
+          </div>
+          <div class="acc-body" id="a3">
+            <p>Jurnal SainTek, Universitas Muhammadiyah Purwokerto. <br>Link: https://jurnalnasional.ump.ac.id/index.php/SAINTEKS/article/view/6312</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section card">
+      <h2>Aksi Singkat</h2>
+      <p>Jika kamu ingin ikut membantu atau memulai kampanye kecil, mulai dari langkah sederhana: ajak teman untuk ikut menanam mangrove, buat poster edukasi tentang rob, dan edukasikan keluarga untuk mengurangi penggunaan air tanah. Aksi kecil ini jika dilakukan bersama bisa berpengaruh besar untuk jangka panjang.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      &copy; 2025 Kampanye Banjir Rob — Sumber: Jurnal & Laporan Akademik. Dibuat untuk keperluan tugas sekolah.
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){
+      a.addEventListener('click', function(e){
+        var target = document.querySelector(this.getAttribute('href'));
+        if(target){ e.preventDefault(); target.scrollIntoView({behavior:'smooth', block:'start'}); }
+      });
+    });
+    // Accordion
+    document.querySelectorAll('.acc-header').forEach(function(h){
+      h.addEventListener('click', function(){
+        var id = this.dataset.target;
+        var body = document.getElementById(id);
+        var open = body.classList.contains('visible');
+        document.querySelectorAll('.acc-body').forEach(function(b){ b.classList.remove('visible'); });
+        if(!open) body.classList.add('visible');
+      });
+    });
+  </script>
+</body>
+</html>
